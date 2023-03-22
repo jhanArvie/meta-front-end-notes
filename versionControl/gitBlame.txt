@@ -1,0 +1,25 @@
+use of git blame
+checking who edits/time/where the changes made
+1. git blame sample.txt                 (git will return all the changes on the file)
+        Message Format
+            121312312               commit ID
+            (Developer1             Author
+            2022-+1.29              Date
+            16:46:30                Time
+            +000 1)                 Line Number where changes where made
+            let add = (a, b)  => {  Content or code added to the file
+2. q                        (quit the viewing)
+
+
+checking for spceific LINE changes in  a file.
+1. git blame -L 5,15 sample.txt     (-L flag will chose specif lines: -L from,to sample.txt)
+2.   (output)                       (output the specific lines)
+
+changing the output itself MORE detailed using -l flag
+1. git blame -l sample.txt          (more detailed output)
+
+Using hash ID - seeing the changes more detailed
+1. git blame sample.txt             (output te changes)
+2. (copy the ID of the file you want to check)
+3. press q                          (exit the list)
+4. git log -p 123132ID              (flag will print the changes accured in the ID)

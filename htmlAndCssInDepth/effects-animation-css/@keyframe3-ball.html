@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        @keyframes bounce {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+            to {
+                transform: translate3d(100vw, 0, 0);
+            }
+        }
+
+        #ball {
+            text-align: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            background-color: brown;
+
+            animation: bounce 2s linear; /* linear is for the ball to move in a consistent speed */
+            animation-direction: alternate; /* move the ball toward */
+            animation-iteration-count: infinite;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- <h3 id="ball"></h3> -->
+    <img src="car.png" id="ball" alt="car test">
+</body>
+</html>

@@ -1,0 +1,154 @@
+/* widely-used-selectors                       https://www.coursera.org/learn/html-and-css-in-depth/lecture/mafHz/widely-used-selectors */
+/* all-selectors-and-their-specificity         https://www.coursera.org/learn/html-and-css-in-depth/supplement/FXaAP/all-selectors-and-their-specificity*/
+/*combination-selectors                       https://www.coursera.org/learn/html-and-css-in-depth/lecture/xVmgq/combination-selectors*/
+/* pseudo-classes                             https://www.coursera.org/learn/html-and-css-in-depth/lecture/CMwle/pseudo-classes */
+/* practical-use-of-pseudo                    https://www.coursera.org/learn/html-and-css-in-depth/supplement/nIdjK/pseudo-elements */
+/* practical-use-of-pseudo                    https://www.coursera.org/learn/html-and-css-in-depth/lecture/fovk0/practical-use-of-pseudo */
+/* css-pseudo-cheat-sheet                     https://www.coursera.org/learn/html-and-css-in-depth/supplement/zbsTK/css-pseudo-cheat-sheet */
+/* additional-resources                       https://www.coursera.org/learn/html-and-css-in-depth/supplement/usXYk/additional-resources */
+
+
+
+
+p { /* element or type selector */
+  color: blue;
+}
+
+#id { /* id selector <p id="id">sample</p> */
+  color: red;
+}
+
+.class { /* <p class="class class2"></p> */
+  color: lightblue;
+}
+
+
+
+
+/* Attribute Selectors */
+/* <a href="http://sample.com">Hei</a>
+<a href="http://sample.com" class="about">Hei about</a>
+<a href="http://sample.com/hello" class="home">Hei home</a> */
+
+a[class] { /* element[attribute] */
+  color: lightcoral;
+}
+a[href*="sample"] { /* element[href*=keyword value] */
+  color: lightcyan;
+}
+a[href="http://sample.com/hello"]{ /* element[href="specific link"] */
+  color: lightpink;
+}
+
+
+
+
+/* :nth-of-type() and :nth-child() selectors */
+/* element:nth-child(n){
+  property: value;
+} */
+/* element:nth-of-type(n){
+  property: value;
+} */
+/* <ul>
+  <li>one</li>
+  <li>two</li>
+</ul> */
+li:nth-of-type(2){ /* child of the elemnt / <li>two</li> */
+  color: aqua;
+}
+li:nth-child(2){ /* child of the elemnt / <li>two</li> */
+  color: aqua;
+}
+
+
+
+
+/* Star selector (*) */
+/* reseting the default style of browser / selects all */
+* {
+  color: yellow;
+}
+
+
+
+
+/* Group selectors / selecting more element */
+h1, h2, h3, strong {
+  color: yellowgreen;
+  text-align: center;
+}
+
+
+
+
+
+/* Combination Selectors */
+/* <div id="blog">
+      <h1>Lates News</h1>
+      <div>
+        <h1>Weather Forecast</h1>
+        <p>The weather is sunny</p>
+        <p>Tomorrow</p>
+      </div>
+</div> */
+
+/* Descendant Selector */
+#blog h1{ /* parent child/grandchild/etc */
+  /* all h1 inside the id */
+  color: darkred;
+}
+
+/* Child Selector */
+#blog > h1 { /* parent > child */
+  /* h1 child of the parent ID */
+  color: darkgoldenrod;
+}
+
+/* General Sibling Selector */
+h1 ~ p { /* element 1 ~ sibling of elemnt 1 */
+  /* p are the sibling of h1 */
+  color: darkblue;
+}  
+
+/* Adjacent Sibling Selector */
+div + p { /* selects the 1st element that matches the asked element (p) */
+  color: darkgoldenrod;
+}
+
+
+
+
+
+
+/* Pseudo-classes - state-based selectors ex. in focus, visited links, specific elements*/
+/* selector:pseudo-class {
+  property: value;
+} */
+
+/*       LVHA
+ :link - pseudo class for links
+ :visited - style links that are visited by user
+ :hover - change the style of an element when curser is over it. 
+ :active - style the element while user actively pressing button   
+ :focus - focus the style of the element that u use it for
+ */
+
+
+
+
+/*  Form States - use for from styling  */
+/*  :disaled and :enabled - generally use for buttons  */
+/*  :checked and :indeterminate - use for checkboxes  */
+/*  :valid and :invalid - use for emails and phone numbers  */
+
+
+
+
+/*  Specific position based states -  allow to target specific items*/
+/* 
+:first-of-type -ex use for list element to style only the first li element in a multiple li element.
+:last-of-type - oposite of first-of-type
+:nth-of-type() -
+:nth-last-of-type()
+ */

@@ -1,0 +1,7 @@
+cheat sheet                         https://www.coursera.org/learn/html-and-css-in-depth/supplement/xppBt/text-effects-cheat-sheet
+CSS Transforms and transitions      https://www.coursera.org/learn/html-and-css-in-depth/lecture/zLk5a/css-transforms-and-transitions
+CSS animation                       https://www.coursera.org/learn/html-and-css-in-depth/lecture/9U7tU/css-animation
+CSS keyframes                       https://www.coursera.org/learn/html-and-css-in-depth/supplement/bitxy/css-keyframes
+keyframe ball example               https://www.coursera.org/learn/html-and-css-in-depth/lecture/16pez/animation-examples
+Animation and effects cheat sheet   https://www.coursera.org/learn/html-and-css-in-depth/supplement/8LWTL/animation-and-effects-cheat-sheet
+Additional resources                https://www.coursera.org/learn/html-and-css-in-depth/supplement/4frPz/additional-resources

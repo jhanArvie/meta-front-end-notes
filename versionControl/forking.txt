@@ -1,0 +1,8 @@
+Forking is another method of workflow by creating new repository ENTIRELY.
+
+https://www.coursera.org/learn/introduction-to-version-control/supplement/t383F/forking
+
+
+1. got to someones repository
+2. click on fork
+3. choose the account you want to fork and click on Create fork

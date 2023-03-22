@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .text {
+            width: 300px;   /* the box */
+            border: 2px solid brown; /* border that made the width visible */
+            white-space: nowrap;
+            overflow: hidden; /* when text is overflowed in a box */
+            text-overflow: ellipsis; /* three dots ... the effect that is applied on overflow */
+        }
+
+        .text:hover{ 
+            overflow: visible;/* when cursor is hover on the overflowed text element */
+        }
+    </style>
+</head>
+<body>
+    <h2>Ellipsis Property</h2>
+    <p class="text">This is a sample write-up to show the use of ellipsis property of text-overflow</p>
+</body>
+</html>

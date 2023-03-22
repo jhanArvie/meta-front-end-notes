@@ -1,0 +1,20 @@
+{
+  "name": "jesttest",
+  "version": "1.0.0",
+  "description": "A folder for jest testing. from coursera",
+  "main": "addFive.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhanArvieBoniel/jestTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhanArvieBoniel/jestTest/issues"
+  },
+  "homepage": "https://github.com/jhanArvieBoniel/jestTest#readme"
+}

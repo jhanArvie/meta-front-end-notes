@@ -1,0 +1,21 @@
+Use of git diff
+this to check the differences between files (specifictly)
+
+comparisons in local files
+1. ls -la                   (list all file in the directory)
+2. vim README.md            (editing the file)
+3. git diff HEAD README.md  (head first option and the name of the file)
+4. (- output)               (- symbol means what the file originally was)
+5. (+ output)               (+ symbol means what the file is now)
+
+
+comparisons agains previous commits
+1. git log --pretty--       (cmd is to dsplay the history of commits, the flag is to display each one in one LINE)
+2. (IDs output)             (list of ID will be output of the previous command)
+3. git diff ID ID           (cmd and coopy the IDs of the changes to see the differences)
+4. (output)                 (will show the differences)
+
+
+comparisons between branches
+1. git branch                   (output the available branches)
+2. git diff main sampleBranch   (cmd + to branches to compare)

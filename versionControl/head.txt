@@ -1,0 +1,18 @@
+Identifying Head,
+
+Head a file in .git directory that can be find on directories that are connected to github.
+This is also related to which branch you are working on
+
+1. cd .git                  (opening the .git directory)
+2. cat HEAD                 (to view the text inside the HEAD file)
+3.   ref: refs/heads/main   (return/result)
+
+1. cd .git                  (opening the directory)
+2. cat refs/heads/main      (to view the text inside the file/directory)
+3. 213123dsample3132123     (return a link a like ID. This ID change everytime you commit a project)
+
+moving the HEAD to branches
+1. git checkout -b testing (creating a branch assuming there is no a branch)
+2. git branch               (check the branch you are in)
+3. cat .git/HEAD            (to show the text inside)
+4.                          (return a branch you are working on)

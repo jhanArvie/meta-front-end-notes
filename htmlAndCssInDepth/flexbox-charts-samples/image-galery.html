@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        * { /* remove browser default setting  */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        img { /* reset the border  */
+        border: 0;
+        }
+
+        .container {
+        display: flex;
+        flex-wrap: wrap; /* will determine if flex itemx should be force in one line should wrap in multiple lines */
+        justify-content: space-between; /* aligns the the flex container on the horizontal axis */
+        padding: 5px;
+        }
+
+        .item {
+        margin: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <img class="item" src="medias\adobo1.jpg" alt="Sample Image" style="width: 240px; height: 180;">
+        <img class="item" src="medias\adobo2.jpg" alt="Sample Image" style="width: 240px; height: 180;">
+        <img class="item" src="medias\adobo3.jpg" alt="Sample Image" style="width: 240px; height: 180;">
+        <img class="item" src="medias\oreo1.jpg" alt="Sample Image" style="width: 240px; height: 180;">
+        <img class="item" src="medias\oreo2.jpg" alt="Sample Image" style="width: 240px; height: 180;">
+        <img class="item" src="medias\oreo3.jpg" alt="Sample Image" style="width: 240px; height: 180;">
+        
+    </div>
+</body>
+</html>
